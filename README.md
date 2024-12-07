@@ -248,7 +248,25 @@ Dir  --> /home/sab/Xilinx
 
 
 
+OUT:
 
+
+```
+The environment variables are written to settings[32|64].(c)sh at "/home/sab/Xilinx/14.7/ISE_DS". To launch the Xilinx tools, first source the settings script:
+
+C-shell 64 bit environment...
+source /home/sab/Xilinx/14.7/ISE_DS/settings64.csh
+
+Shell, Bash shell, Korn Shell 64 bit environment...
+. /home/sab/Xilinx/14.7/ISE_DS/settings64.sh
+
+C-shell 32 bit environment...
+source /home/sab/Xilinx/14.7/ISE_DS/settings32.csh
+
+Shell, Bash shell, Korn Shell 32 bit environment...
+. /home/sab/Xilinx/14.7/ISE_DS/settings32.sh
+
+```
 
 
 
@@ -257,6 +275,32 @@ Dir  --> /home/sab/Xilinx
 **Samplecode**
 
 https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules
+
+
+
+
+| Name | Language/Technology | IDE |
+| --- |  --- | ---  |
+| [16x2 LCD Display](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/LCDDisplay16x2) |  Verilog | Xilinx ISE  |
+| LEDs |  Verilog | Xilinx ISE  |
+| Push Button Switch |  Verilog | Xilinx ISE  |
+| Seven Segment LED Display |  Verilog | Xilinx ISE  |
+| 8Bit VGA |  Verilog | Xilinx ISE  |
+| LM4550 AC97 Audio |  Verilog | Xilinx ISE  |
+| CS4344 Stereo Audio |  Verilog | Xilinx ISE  |
+
+
+
+
+
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/LEDExpansionModule
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/PushButtonSwitches
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/SevenSegmentLEDDisplay
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/VGA8bit
+
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/AC97Audio
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/CS4344Audio
+
 
 
 
