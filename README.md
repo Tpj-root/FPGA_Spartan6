@@ -21,6 +21,19 @@ https://numato.com/product-category/fpga-accelerated-computing/expansion-modules
 
 
 
+
+<p align="center">
+  <img width="1173" height="828" src="img/WiringDiagram.png">
+</p>
+
+
+
+
+
+
+
+
+
 Mimas is an easy to use FPGA Development board featuring Xilinx Spartan-6 FPGA. Mimas is specially designed for experimenting and learning system design with FPGAs. This development board features Xilinx XC6SLX9 TQG144 FPGA with a maximum of 70 user IOs. The USB 2.0 interface provides fast and easy configuration download to the on-board SPI flash. You don’t need a programmer or special downloader cable to download the bitstream to the board.
 
 
