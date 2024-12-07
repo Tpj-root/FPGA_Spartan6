@@ -269,37 +269,130 @@ Shell, Bash shell, Korn Shell 32 bit environment...
 ```
 
 
+run the command
+```
+. settings64.sh 
+```
+
+
+```
+sab@SH4D0W6:~/Xilinx/14.7/ISE_DS$ . settings64.sh 
+. /home/sab/Xilinx/14.7/ISE_DS/common/.settings64.sh /home/sab/Xilinx/14.7/ISE_DS/common
+. /home/sab/Xilinx/14.7/ISE_DS/EDK/.settings64.sh /home/sab/Xilinx/14.7/ISE_DS/EDK
+. /home/sab/Xilinx/14.7/ISE_DS/PlanAhead/.settings64.sh /home/sab/Xilinx/14.7/ISE_DS/PlanAhead
+. /home/sab/Xilinx/14.7/ISE_DS/ISE/.settings64.sh /home/sab/Xilinx/14.7/ISE_DS/ISE
+
+```
+
+
+
+Launch ISE GUI
+
+```
+ise
+
+```
+
+
+
+
+
+For windows
+
+libPortability.dll
+
+libPortability.dll.orig
+
+libPortabilityNOSH.
+
+
+
+
+**Product Licensing**
+
+
+
+https://account.amd.com/en/forms/license/license-form.html
+
+To get the Ethernet address (MAC address) of your system for Xilinx activation, follow these steps based on your operating system:
+
+
+
+
+1. Product Selection
+
+ISE WebPACK License
+
+
+2. System Information
+Host name : <name>
+operating system : linux
+eth0_mac : 
+
+
+
+ - Then you get your license file via email address. 
+ - Download and upload the software.
+
+
+
+FILE NAME IS : Xilinx.lic
+
+
+
+Type this command, hit enter, and load your license file Xilinx.lic
+
+
+```
+xlcm -manage
+```
+
+
+### HELP
+
+
+
+
+<p align="center">
+  <img width="246" height="273" src="help/HELP_L.png">
+</p>
+<p align="center">
+  <img width="246" height="273" src="help/HELP_L_1.png">
+</p>
+
+
+
 
 
 
 **Samplecode**
 
 https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules
-
+https://github.com/Tpj-root/samplecode
 
 
 
 | Name | Language/Technology | IDE |
 | --- |  --- | ---  |
 | [16x2 LCD Display](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/LCDDisplay16x2) |  Verilog | Xilinx ISE  |
-| LEDs |  Verilog | Xilinx ISE  |
-| Push Button Switch |  Verilog | Xilinx ISE  |
-| Seven Segment LED Display |  Verilog | Xilinx ISE  |
-| 8Bit VGA |  Verilog | Xilinx ISE  |
-| LM4550 AC97 Audio |  Verilog | Xilinx ISE  |
-| CS4344 Stereo Audio |  Verilog | Xilinx ISE  |
+| [LEDs](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/LEDExpansionModule) |  Verilog | Xilinx ISE  |
+| [Push Button Switch](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/PushButtonSwitches) |  Verilog | Xilinx ISE  |
+| [Seven Segment LED Display](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/SevenSegmentLEDDisplay) |  Verilog | Xilinx ISE  |
+| [8Bit VGA](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/VGA8bit) |  Verilog | Xilinx ISE  |
+| [LM4550 AC97 Audio](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/AC97Audio) |  Verilog | Xilinx ISE  |
+| [CS4344 Stereo Audio](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/CS4344Audio) |  Verilog | Xilinx ISE  |
 
 
 
 
 
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/LEDExpansionModule
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/PushButtonSwitches
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/SevenSegmentLEDDisplay
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/VGA8bit
 
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/AC97Audio
-https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/CS4344Audio
+
+
+
+
+
+
 
 
 
