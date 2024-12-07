@@ -238,6 +238,22 @@ https://amd-ax-dl.entitlenow.com/dl/ul/2013/10/18/R209855202/Xilinx_ISE_DS_Lin_1
 
 
 
+
+Select Products to Install
+
+ISE WebPACK
+
+
+Dir  --> /home/sab/Xilinx
+
+
+
+
+
+
+
+
+
 **Samplecode**
 
 https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules
