@@ -4,8 +4,11 @@
 
 ### HELP
 https://numato.com/docs/mimas-spartan-6-fpga-development-board/
+https://numato.com/product/mimas-spartan-6-fpga-development-board/
 
 
+
+https://numato.com/product-category/fpga-accelerated-computing/expansion-modules/
 
 
 **1.Introduction**
@@ -222,6 +225,26 @@ To use this product with Linux, the USB CDC driver needs to be compiled in with 
 
 
 
+Download link
+
+https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html
+
+
+Full Installer for Linux (TAR/GZIP - 6.09 GB)
+
+MD5 SUM Value : e8065b2ffb411bb74ae32efa475f9817
+
+https://amd-ax-dl.entitlenow.com/dl/ul/2013/10/18/R209855202/Xilinx_ISE_DS_Lin_14.7_1015_1.tar?hash=msGZ-0ybZTgtZTAXv7NdRQ&expires=1733594916&filename=Xilinx_ISE_DS_Lin_14.7_1015_1.tar
+
+
+
+**Samplecode**
+
+https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules
+
+
+
+
 
 **Generating Bitstream for Mimas**
 
@@ -230,6 +253,13 @@ To use this product with Linux, the USB CDC driver needs to be compiled in with 
 **Mechanical Dimensions**
 
 
+
+https://github.com/numato/samplecode/tree/master/FPGA/Mimas/board
+
+
+3D
+
+https://myhub.autodesk360.com/ue28a7dc2/g/shares/SHabee1QT1a327cf2b7a9ac88fac7ba751a2
 
 <p align="center">
   <img width="623" height="630" src="img/dimensions.png">
