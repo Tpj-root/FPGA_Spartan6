@@ -311,10 +311,9 @@ libPortabilityNOSH.
 **Product Licensing**
 
 
+https://adaptivesupport.amd.com/s/article/Xilinx-Licensing-Solution-Center?language=en_US
 
 https://account.amd.com/en/forms/license/license-form.html
-
-To get the Ethernet address (MAC address) of your system for Xilinx activation, follow these steps based on your operating system:
 
 
 
@@ -327,7 +326,7 @@ ISE WebPACK License
 2. System Information
 Host name : <name>
 operating system : linux
-eth0_mac : 
+eth0_mac :  0ae0afd20fa2
 
 
 
@@ -351,16 +350,124 @@ xlcm -manage
 ### HELP
 
 
+**Step:1**
 
+<p align="center">
+  <img width="646" height="473" src="help/HELP_L_2.png">
+</p>
+
+**Step:2**
 
 <p align="center">
   <img width="646" height="473" src="help/HELP_L.png">
 </p>
+
+**Step:3**
+
 <p align="center">
   <img width="646" height="473" src="help/HELP_L_1.png">
 </p>
 
 
+
+
+
+**First_Project**
+
+
+**Simulation BCD to 7 Segment using Verilog on Xiling ISE**
+
+
+BCD (Binary Coded Decimal)
+
+
+
+
+
+```
+https://www.youtube.com/watch?v=1mQ_YmWLsDg&ab_channel=MIFTAHSHOFFANM.
+https://verilogcodes.blogspot.com/2015/10/verilog-code-for-bcd-to-7-segment.html
+```
+
+--> New Project   --> project_name  --> source_type [HDL]
+
+
+Board_info  :
+    Family  : Spartan6
+    Device  : XC6SLX9
+    PACKGAE : TQG144
+    Flash memory: 16 Mb SPI flash memory (M25P16)
+    100MHz CMOS oscillator
+    USB 2.0 interface
+
+-->  finish
+                       
+                       
+                       
+--> New Source Wizard   --> Verilog Module  --> filename : s7seg
+
+
+--> paste the code
+
+
+--> Goto  -->  synthesize - XST --> RUN
+       --> view RTL Schematics --> Right Click --> RUN
+
+
+
+
+--> New Source Wizard   --> Verilog Test Fixture  --> filename : testbench7seg
+   then select the source wizard --> Next   --> Finish
+
+
+
+
+--> Goto simulation  --> select testbench7seg.v
+--> ISim Simulator --> Behavioral Check Syntax --> Run
+      --> Simulate Behavioral Model --> Run
+
+
+then right click  Float (view full screen)  (Default.wcfg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Project_2**
+
+
+
+
+
+```
+https://www.youtube.com/watch?v=nC8w37BIJ74&ab_channel=AugmentedAI
+```
+
+
+
+**Flashcmd**
+
+
+```
+https://github.com/multigcs/riocore/blob/main/riocore/boards/Spartan6/README.md
+
+Flashcmd: openFPGALoader -v -c usb-blaster --fpga-part xc6slx9tqg144 -f rio.bit
+```
+
+
+
+
+**mesa Card**
+
+https://github.com/LinuxCNC/hostmot2-firmware/tree/master
 
 
 
