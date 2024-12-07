@@ -336,7 +336,7 @@ eth0_mac :
 
 
 
-FILE NAME IS : Xilinx.lic
+FILE : Xilinx.lic
 
 
 
@@ -354,10 +354,10 @@ xlcm -manage
 
 
 <p align="center">
-  <img width="246" height="273" src="help/HELP_L.png">
+  <img width="646" height="473" src="help/HELP_L.png">
 </p>
 <p align="center">
-  <img width="246" height="273" src="help/HELP_L_1.png">
+  <img width="646" height="473" src="help/HELP_L_1.png">
 </p>
 
 
