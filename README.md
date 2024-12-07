@@ -443,6 +443,13 @@ then right click  Float (view full screen)  (Default.wcfg)
 
 **Project_2**
 
+[Push Button Switch](https://github.com/numato/samplecode/tree/master/FPGA/ExpansionModules/PushButtonSwitches)
+ 
+
+https://www.youtube.com/watch?v=gE1X5ZcM83I&ab_channel=KajNormanNielsen
+https://www.youtube.com/watch?v=w3Vgw-RzjAA&ab_channel=AllAboutFPGA
+
+
 
 
 
@@ -450,6 +457,29 @@ then right click  Float (view full screen)  (Default.wcfg)
 ```
 https://www.youtube.com/watch?v=nC8w37BIJ74&ab_channel=AugmentedAI
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -494,19 +524,34 @@ https://github.com/Tpj-root/samplecode
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 **Generating Bitstream for Mimas**
+
+HDL design needs to be converted to a bitstream before it can be programmed to FPGA. Mimas at this time accepts only binary (.bin) bitstream created by Xilinx ISE (http://www.xilinx.com/tools/webpack.htm). Once the HDL is synthesized, it is easy to create a binary bitstream out of it. Please follow the steps below to generate a binary bitstream from your design using ISE Web Pack.
+
+
+Step 1: Right-click on the “Generate Programming File” option in the “Processes” window.
+
+
+
+<p align="center">
+  <img width="646" height="473" src="help/bitstreamstep1.png">
+</p>
+
+
+
+
+
+Step 2: Select “Process Properties” from the pop-up menu. In the dialog box, check the “Create Binary Configuration File” Checkbox and click “Apply”.
+
+
+<p align="center">
+  <img width="646" height="473" src="help/bitstreamstep2.png">
+</p>
+
+
+Step 3: Click “OK” to close the dialog box. Right-click on the “Generate Programming File” option again and select “Run”. Now you will be able to find a .bin file in the project directory and that file can be used for Mimas configuration.
+
+
 
 
 
@@ -517,7 +562,7 @@ https://github.com/Tpj-root/samplecode
 https://github.com/numato/samplecode/tree/master/FPGA/Mimas/board
 
 
-3D
+**3D_FILE**
 
 https://myhub.autodesk360.com/ue28a7dc2/g/shares/SHabee1QT1a327cf2b7a9ac88fac7ba751a2
 
