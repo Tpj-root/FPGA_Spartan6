@@ -230,6 +230,28 @@ This board is equipped with 70 user IO pins that can be used for various custom 
 
 
 
+# Mimas Board PushButton, Led
+
+| Header Pin No. | Pin description | Spartan-6 (XC6SLX9 TQG144) Pin No. |
+| --- |  --- | ---  |
+| --- |  CLK_PERIOD | ---  |
+| NA |  100 MHz HIGH 50% | P126  |
+| --- |  LEDs | ---  |
+NA   |	LED[0]	 |	P119
+NA   |	LED[1]	 |	NA
+NA   |	LED[2]	 |	P119
+NA   |	LED[3]	 |	NA
+NA   |	LED[4]	 |	P119
+NA   |	LED[5]	 |	NA
+NA   |	LED[6]	 |	P119
+NA   |	LED[7]	 |	NA
+| --- |  Push Button | ---  |
+NA   |	SW0	 |	P124
+NA   |	SW1	 |	P123
+NA   |	SW2	 |	P121
+NA   |	SW3	 |	P120
+
+
 **Driver Installation**
 
 To use this product with Linux, the USB CDC driver needs to be compiled in with the kernel. Fortunately, most Linux distributions (Ubuntu, Redhat, Debian, etc..) have this driver pre-installed. The chances of you requiring to rebuild the kernel to include the USB CDC driver is very slim. When connected to a Linux machine, this product should appear as a serial port in the /dev directory. Usually, the name of the device will be “ttyACMx” or similar. The name may be different depending on the Linux distribution you have.
