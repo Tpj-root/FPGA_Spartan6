@@ -236,16 +236,16 @@ This board is equipped with 70 user IO pins that can be used for various custom 
 | --- |  --- | ---  |
 | --- |  CLK_PERIOD | ---  |
 | NA |  100 MHz HIGH 50% | P126  |
-| --- |  LEDs | ---  |
+| --- |  LEDs [8] | ---  |
 NA   |	LED[0]	 |	P119
-NA   |	LED[1]	 |	NA
-NA   |	LED[2]	 |	P119
-NA   |	LED[3]	 |	NA
-NA   |	LED[4]	 |	P119
-NA   |	LED[5]	 |	NA
-NA   |	LED[6]	 |	P119
-NA   |	LED[7]	 |	NA
-| --- |  Push Button | ---  |
+NA   |	LED[1]	 |	P118
+NA   |	LED[2]	 |	P117
+NA   |	LED[3]	 |	P116
+NA   |	LED[4]	 |	P115
+NA   |	LED[5]	 |	P114
+NA   |	LED[6]	 |	P112
+NA   |	LED[7]	 |	P111
+| --- |  Push Button [4] | ---  |
 NA   |	SW0	 |	P124
 NA   |	SW1	 |	P123
 NA   |	SW2	 |	P121
