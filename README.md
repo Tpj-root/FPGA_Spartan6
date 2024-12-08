@@ -482,7 +482,8 @@ then right click  Float (view full screen)  (Default.wcfg)
  
 
 https://www.youtube.com/watch?v=gE1X5ZcM83I&ab_channel=KajNormanNielsen
-https://www.youtube.com/watch?v=w3Vgw-RzjAA&ab_channel=AllAboutFPGA
+
+
 
 
 
@@ -512,6 +513,41 @@ https://www.youtube.com/watch?v=nC8w37BIJ74&ab_channel=AugmentedAI
 
 
 
+**Upload** (bug)
+
+
+--> Goto Generate Programming File  --> Run
+
+--> Goto Configure Target Device --> Manage Configuration Project(iMPACT) --> Run
+
+
+
+
+
+
+
+
+
+```
+Usage : python mimasconfig.py <PORT> <Binary File>
+Example (Ubuntun 14.04) :  python mimasconfig.py /dev/ttyACM0 mimas.bin
+```
+
+
+
+During the flash writing process, the red LED will remain continuously on.
+
+
+python mimasconfig.py /dev/ttyACM0 mimas.bin
+
+
+
+
+<p align="center">
+  <img width="946" height="241" src="help/Help_3.png">
+</p>
+
+
 
 
 
@@ -519,6 +555,9 @@ https://www.youtube.com/watch?v=nC8w37BIJ74&ab_channel=AugmentedAI
 
 
 **Flashcmd**
+
+
+FPGA Bit Files (*.bit)
 
 
 ```
