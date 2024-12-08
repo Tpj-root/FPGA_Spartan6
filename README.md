@@ -259,7 +259,6 @@ To use this product with Linux, the USB CDC driver needs to be compiled in with 
 
 
 
-
 Download link
 
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html
