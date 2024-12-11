@@ -551,6 +551,25 @@ python mimasconfig.py /dev/ttyACM0 mimas.bin
 
 
 
+**Create a .bin File**
+
+
+To create a .bin file (binary file) from the .bit file generated in Xilinx ISE, you can use the promgen utility. The .bin file is typically used for programming flash memory or certain bootloader setups.
+
+
+
+
+
+
+promgen -b -p bin -o <output_name> -u 0 <input_name>.bit
+
+
+
+
+
+
+
+
 
 
 **Flashcmd**
